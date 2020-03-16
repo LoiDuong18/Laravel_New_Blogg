@@ -23,6 +23,8 @@ class PostRepository extends BaseRepository
 
     // public function test()
     // {
+    //     // $post = $this->model::select('id','thumbnail','type_thumb','title','slug','created_at','updated_at','video')->with('getThumbnail')->get();
+    //     // return $post;
     //     return $this->model::with('categories')->with('getThumbnail')->get();
     // }
 

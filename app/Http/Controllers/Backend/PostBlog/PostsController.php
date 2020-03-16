@@ -35,6 +35,8 @@ class PostsController extends Controller
      */
     public function index()
     {
+        // $tests=$this->PostRepository->test();
+        // dd($tests);
         return view('backend/post/index');
     }
 

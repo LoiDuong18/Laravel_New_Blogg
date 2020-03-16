@@ -21,7 +21,11 @@ class CategoryRepository extends BaseRepository
     {
         $this->model = $model;
     }
-
+    public function hahah()
+    { 
+      $category = $this->model::with('parentOf')->get();
+      return $category;
+    }
     /**
      * [getAjaxDataTable Ajax Process DataTable].
      * @param  [string] $search [Search String]

@@ -20,7 +20,10 @@ class CategoriesController extends Controller
 
     public function index()
     {
-        return view('backend/category/index');
+
+        $haha=$this->CategoryRepository->hahah();
+        dd($haha);
+        return view('backend/category/index',compact(haha));
     }
 
     /**
